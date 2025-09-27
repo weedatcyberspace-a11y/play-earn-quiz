@@ -121,15 +121,27 @@ export const SignupForm: React.FC<SignupFormProps> = ({ onSignupComplete }) => {
                 </p>
               </div>
               
-              <div className="border rounded-lg p-4 bg-muted/50">
-                <iframe
-                  width="100%"
-                  height="400"
-                  src="https://store.pesapal.com/embed-code?pageUrl=https://store.pesapal.com/moneyflow"
-                  frameBorder="0"
-                  allowFullScreen
-                  className="rounded-md"
-                />
+              <div className="space-y-4">
+                <Button 
+                  onClick={() => window.open('https://store.pesapal.com/moneyflow', '_blank')}
+                  className="w-full h-12 bg-quiz-orange hover:bg-quiz-orange/90 text-white font-semibold"
+                >
+                  Pay via PesaPal MoneyFlow
+                </Button>
+                
+                <div className="text-center">
+                  <p className="text-xs text-muted-foreground mb-2">
+                    Click the button above to complete your payment
+                  </p>
+                  <iframe 
+                    width="200" 
+                    height="40" 
+                    src="https://store.pesapal.com/embed-code?pageUrl=https://store.pesapal.com/moneyflow" 
+                    frameBorder="0" 
+                    allowFullScreen
+                    className="mx-auto"
+                  />
+                </div>
               </div>
               
               <Button 
