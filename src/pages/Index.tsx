@@ -56,9 +56,32 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
             Quiz <span className="text-quiz-purple">Master</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Play quizzes, earn money, and become the ultimate quiz champion!
+          <p className="text-lg md:text-xl text-muted-foreground mb-4">
+            💸 Turn Your Knowledge Into Cash! 💸
           </p>
+          <div className="max-w-2xl mx-auto space-y-3 mb-6">
+            <p className="text-sm md:text-base text-foreground">
+              <span className="font-bold text-quiz-orange">Join thousands</span> of smart people earning 
+              <span className="font-bold text-quiz-green"> $20-100 daily</span> just by answering simple questions!
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+              <div className="bg-card p-4 rounded-lg shadow-sm">
+                <div className="text-2xl mb-2">🏆</div>
+                <p className="font-semibold text-quiz-purple">Sarah M.</p>
+                <p className="text-xs text-muted-foreground">"Earned $156 in my first week!"</p>
+              </div>
+              <div className="bg-card p-4 rounded-lg shadow-sm">
+                <div className="text-2xl mb-2">💰</div>
+                <p className="font-semibold text-quiz-green">John K.</p>
+                <p className="text-xs text-muted-foreground">"Easy money during lunch breaks"</p>
+              </div>
+              <div className="bg-card p-4 rounded-lg shadow-sm">
+                <div className="text-2xl mb-2">⚡</div>
+                <p className="font-semibold text-quiz-orange">Mary L.</p>
+                <p className="text-xs text-muted-foreground">"Paid my rent with quiz earnings!"</p>
+              </div>
+            </div>
+          </div>
         </div>
         
         <SignupForm onSignupComplete={handleSignupComplete} />
