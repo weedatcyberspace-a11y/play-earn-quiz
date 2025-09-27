@@ -41,7 +41,7 @@ export const SignupForm: React.FC<SignupFormProps> = ({ onSignupComplete }) => {
       <Card className="shadow-lg border-0 bg-card">
         <CardHeader className="text-center pb-4">
           <CardTitle className="text-2xl font-bold text-quiz-purple">
-            🚀 Start Earning Today!
+            🚀 Join Cash Empire!
           </CardTitle>
           <CardDescription className="text-muted-foreground space-y-2">
             <p className="font-semibold text-quiz-orange">Join 10,000+ successful quiz players</p>

@@ -54,7 +54,7 @@ const Index = () => {
       <div className="w-full max-w-6xl">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
-            Quiz <span className="text-quiz-purple">Master</span>
+            Cash <span className="text-quiz-purple">Empire</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-4">
             💸 Turn Your Knowledge Into Cash! 💸
